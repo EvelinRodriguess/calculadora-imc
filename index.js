@@ -6,8 +6,6 @@ function calcula_imc(){
     altura = altura * altura;
     resultado = peso / altura;
   
-
-
 if(resultado < 15.99){
     resultado = "Magreza Grave"
 }else if(resultado >= 16 <= 16.99){
