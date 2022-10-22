@@ -1,3 +1,53 @@
-.perigo{
+body{
+    background-color: aqua;
+}
+
+
+.inicio{
+    align-items: center;
+    text-align: center;
+
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    align-items: center;
+}
+button{
+    box-shadow: 3px 3px 3px black;
+    background-color: blue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.perigo {
     color: red;
+}
+
+.alerta1 {
+    color: orange;
+}
+
+.alerta2 {
+    color: yellow;
+}
+
+.Saudável {
+    color: green;
+}
+
+.alerta3 {
+    color: aqua;
+}
+
+.alerta4 {
+    color: blue;
+}
+
+.alerta5 {
+    color: blueviolet;
+}
+
+.alerta6 {
+    background-color: black;
 }
