@@ -1,25 +1,35 @@
-body{
-    background-color: aqua;
+body {
+    background-color: rgb(161, 162, 235);
 }
 
+.inicio {
 
-.inicio{
     align-items: center;
     text-align: center;
+    font-style: italic;
+    text-shadow: 1.5px 1.5px 1.5px white;
+    
+}
 
-}
-button:hover{
-    background-color: rgb(255, 0, 0);
-    align-items: center;
-}
 button{
-    box-shadow: 3px 3px 3px black;
-    background-color: blue;
+  background-color: rgb(109, 167, 253);
+  box-shadow: 3px 3px 3px black;
+}
+.botao{
+    align-items: center;
     text-align: center;
 }
-h1{
-    text-align: center;
+button:hover {
+    background-color: rgb(195, 207, 248);
+
 }
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+    font-style: italic;
+}
+
 .perigo {
     color: red;
 }
