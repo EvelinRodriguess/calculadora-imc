@@ -1,33 +1,51 @@
 body {
-    background-color: rgb(161, 162, 235);
+    background-color: rgb(180, 181, 238);
 }
 
 .inicio {
-
     align-items: center;
     text-align: center;
     font-style: italic;
     text-shadow: 1.5px 1.5px 1.5px white;
-    
 }
 
-button{
-  background-color: rgb(109, 167, 253);
-  box-shadow: 3px 3px 3px black;
+button {
+    background-color: rgb(109, 167, 253);
+    box-shadow: 3px 3px 3px ;
 }
-.botao{
+
+.botao {
     align-items: center;
     text-align: center;
-}
-button:hover {
-    background-color: rgb(195, 207, 248);
 
+}
+
+button:hover {
+    background-color: rgb(186, 198, 238);
 }
 
 h1 {
     text-align: center;
     text-shadow: 2px 2px 2px white;
     font-style: italic;
+}
+
+#peso{
+    box-shadow: 3px 3px 3px black;
+    height: 20px;
+    width: 170px;
+}
+
+#altura{
+    box-shadow: 3px 3px 3px black;
+    height: 20px;
+    width: 170px;
+}
+
+#nome{
+    box-shadow: 3px 3px 3px black;
+    height: 20px;
+    width: 170px;
 }
 
 .perigo {
@@ -47,17 +65,17 @@ h1 {
 }
 
 .alerta3 {
-    color: aqua;
-}
-
-.alerta4 {
     color: blue;
 }
 
-.alerta5 {
+.alerta4 {
     color: blueviolet;
 }
 
+.alerta5 {
+    color: brown;
+}
+
 .alerta6 {
-    background-color: black;
+    color: black;
 }
